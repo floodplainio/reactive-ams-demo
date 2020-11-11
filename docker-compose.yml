@@ -1,0 +1,8 @@
+version: '2.2'
+services:
+  postgres:
+    image: floodplain/floodplain-postgres-demo:1.0.0
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword

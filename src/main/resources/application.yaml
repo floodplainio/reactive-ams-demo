@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application.name: r2dbc-reactive-meetup
+  jackson.property-naming-strategy: com.fasterxml.jackson.databind.PropertyNamingStrategy.SnakeCaseStrategy
+  r2dbc:
+    url: r2dbc:postgresql://localhost/dvdrental
+    username: postgres
+    password: mysecretpassword
+
